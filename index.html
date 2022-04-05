@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <img  class="header__logo" src="./images/logo.png" alt="Logo image">
+        <nav class="navbar">
+            <ul class="navbar__list">
+            <li class="navbar__list__item">Home</li>
+            <li class="navbar__list__item">Task Manager</li>
+            <li class="navbar__list__item">Menu</li>
+        </ul>
+        <div class="navbar__login">
+            <button class="navbar__login__btn"><a class="navbar__login__btn-link" href="#">Log In</a></button>
+            <button class ="navbar__login__avator-btn"><img class="navbar__login__img" src="./images/avator-image.png" alt=""> </button>
+        </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2 class="hero__title"> Real Estate Sales Task-Form</h2>
+        <div class="form__container">
+            <form class="form">
+                <div class="form-info">
+                    <div class="type">
+                      <label for="Location">City</label>
+                    </div>
+                    <div class="selection">
+                          <select id="City" name="City" required>
+                            <option value="Seattle">All</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="Tampa">Tampa</option>
+                            <option value="San Francisco">San Francisco</option>
+                            <option value="New Orleans">New Orleans</option>
+                            <option value="Pittsburgh">Pittsburgh</option>
+                          </select>
+                        </div>
+                        <input class="submite" type="submit" value="submit"></input>
+
+                </div>
+                <div class="form-info">
+                    <div class="type">
+                      <label for="Estate-type">Building</label>
+                    </div>
+                    <div class="selection">
+                          <select id="Building" name="Building" required>
+                            <option value="Seattle">All</option>
+                            <option value="Condo">Condo</option>
+                            <option value="Duplex">Duplex</option>
+                            <option value="Apartment">Apratment</option>
+                            <option value="Single-Family">Single-Family</option>
+                           </select>
+                        </div>
+                    <input  class="submite" type="submit" value="submit"></input>
+                </div>
+                <div class="form-info">
+                     <div class="type">
+                        <label for="Assignee">Agent</label>
+                     </div>
+                <div class="selection">
+                        <select id="Agent" name="Agent" required>
+                          <option value="Seattle">All</option>
+                          <option value="Ayanna">Ayanna</option>
+                          <option value="Simret">Simret</option>
+                          <option value="Duril">Duril</option>
+                          <option value="Lala">Lala</option>
+                        </select>
+                </div>
+                      <input class="submite" type="submit" value="submit"></input>
+                </div>
+                <div class="form-info">
+                    <div class="type">
+                        <label for="Date">Due Date</label>
+                    </div>
+                    <div class="selection">
+                    <input  class="date" type="date" name="due-date" value="2022-04-05" min="2022-01-01" max="2040-01-01">
+                     <input class="submite" type="submit" value="submit"></input>
+                    </div>
+                </div>
+                <div class="form-info">
+                    <div class="type">
+                        <label for="status">Status</label>
+                    </div>
+                    <div class="selection">
+                        <select id="status" name="status" required>
+                            <option value="Seattle">none</option>
+                            <option value="Condo">Pending</option>
+                            <option value="Duplex">In-Progress</option>
+                            <option value="Apartment">sold</option>
+                            <option value="Single-Family">offer-refused</option>
+                        </select>
+                    </div>
+                    <input class="submite" type="submit" value="submit"></input>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="section__2__title">
+        <h2 class="section__2__title"> Sales Assessment Bord</h2>
+    <div class="section__card">
+        <ul class="section__card__lsit">
+        <li class="section__card__lsit__item">City</li>
+        <li class="section__card__lsit__item">Building</li>
+        <li class="section__card__lsit__item">Agent</li>
+        <li class="section__card__lsit__item">Status</li>
+
+        <li class="section__card__lsit__item"> Date</li>
+     </ul>
+     </div>
+    </div>
+    </section>
+    <footer class="footer">
+        <h4 class="footer__tittle">Contact Us</h4>
+        <div class="footer__address">
+            <p>Headquarters: 1616 H. Street NW Suite 820</p>
+            <p>Washington, D.C. 20006</p>
+        </div>
+        <div>
+            <p class="footer__address__email">admissionsusa@generation.org</p>
+            <p class="footer__address__phone">Toll-free: 888-633-1352</p>
+       </div>
+       <div>
+           <div class="footer__social__icon">
+          <a href="https://www.facebook.com/"> <img src="./images/Icons/Icon-facebook.svg" alt="facebook Icon"></a>
+            <a href="https://twitter.com/"><img src="./images/Icons/Icon-instagram.svg" alt="twitter Icon"></a>
+           <a href="https://www.instagram.com/"> <img src="./images/Icons/Icon-twitter.svg" alt="instagram Icon"></a>
+           </div>
+        </div>
+    </footer>
+</body>
+</html>
