@@ -249,7 +249,7 @@ width: 50%;
 }
 @keyframes example {
   from {background-color: yellow;}
-  to {background-color: rgb(0, 132, 255);}
+  to {background-color: rgb(163, 167, 170);}
 }
     
 .new-item {
