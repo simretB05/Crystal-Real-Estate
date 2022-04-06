@@ -129,14 +129,14 @@
                     <div class="type">
                         <label for="Assignee">Agent Name</label>
                     </div>
-                        <select id="Agent" name="Agent" required>
+                        <select id="Agent-name" name="Agent" required>
                                 <option value="Seattle">All</option>
                                 <option value="Ayanna">Ayanna</option>
                                 <option value="Simret">Simret</option>
                                 <option value="Duril">Duril</option>
                                 <option value="Lala">Lala</option>
                         </select>
-                        <input class="submite" type="submit" value="submit">
+                        <input id="submit-name" class="submite" type="submit" value="submit">
                 </div>
      <!-- Item List -->
                 <div class="list-container">
@@ -160,10 +160,9 @@
                     </div>
 
                    <div>
-              <p class="todo-name">to-do List</p>
-                    <ul class="todo-list">
+              <p  class="todo-name">to-do List</p>
+                    <ul id="list"class="todo-list">
                         <li class="todo-list-item"> Contact client and ready for a estate show</li>
-                       
                     </ul>
                     </div>   
         </div>
@@ -187,5 +186,6 @@
            </div>
         </div>
     </footer>
+    <script src="./index.js"></script>
 </body>
 </html>
