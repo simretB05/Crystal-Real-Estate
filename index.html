@@ -4,24 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./styles.css">
     <title>Document</title>
 </head>
 <body>
+    <!-- header-section -->
     <header class="header">
         <img  class="header__logo" src="./images/logo.png" alt="Logo image">
         <nav class="navbar">
             <ul class="navbar__list">
-            <li class="navbar__list__item">Home</li>
-            <li class="navbar__list__item">Task Manager</li>
-            <li class="navbar__list__item">Menu</li>
-        </ul>
-        <div class="navbar__login">
-            <button class="navbar__login__btn"><a class="navbar__login__btn-link" href="#">Log In</a></button>
-            <button class ="navbar__login__avator-btn"><img class="navbar__login__img" src="./images/avator-image.png" alt=""> </button>
-        </div>
+              <li class="navbar__list__item">Home</li>
+              <li class="navbar__list__item">Task Manager</li>
+              <li class="navbar__list__item">Menu</li>
+            </ul>
+            <div class="navbar__login">
+               <button class="navbar__login__btn">
+                   <a class="navbar__login__btn-link" href="#">Log In</a>
+                </button>
+               <button class ="navbar__login__avator-btn">
+                   <img class="navbar__login__img" src="./images/avator-image.png" alt="">
+                </button>
+            </div>
         </nav>
     </header>
+    <!-- hero-section -->
     <section class="hero">
         <h2 class="hero__title"> Real Estate Sales Task-Form</h2>
         <div class="form__container">
@@ -39,9 +46,8 @@
                             <option value="New Orleans">New Orleans</option>
                             <option value="Pittsburgh">Pittsburgh</option>
                           </select>
-                        </div>
-                        <input class="submite" type="submit" value="submit"></input>
-
+                    </div>
+                        <input class="submite" type="submit" value="submit">
                 </div>
                 <div class="form-info">
                     <div class="type">
@@ -55,14 +61,14 @@
                             <option value="Apartment">Apratment</option>
                             <option value="Single-Family">Single-Family</option>
                            </select>
-                        </div>
-                    <input  class="submite" type="submit" value="submit"></input>
+                    </div>
+                        <input  class="submite" type="submit" value="submit">
                 </div>
                 <div class="form-info">
-                     <div class="type">
+                    <div class="type">
                         <label for="Assignee">Agent</label>
-                     </div>
-                <div class="selection">
+                    </div>
+                    <div class="selection">
                         <select id="Agent" name="Agent" required>
                           <option value="Seattle">All</option>
                           <option value="Ayanna">Ayanna</option>
@@ -70,16 +76,16 @@
                           <option value="Duril">Duril</option>
                           <option value="Lala">Lala</option>
                         </select>
-                </div>
-                      <input class="submite" type="submit" value="submit"></input>
+                    </div>
+                         <input class="submite" type="submit" value="submit">
                 </div>
                 <div class="form-info">
                     <div class="type">
                         <label for="Date">Due Date</label>
                     </div>
                     <div class="selection">
-                    <input  class="date" type="date" name="due-date" value="2022-04-05" min="2022-01-01" max="2040-01-01">
-                     <input class="submite" type="submit" value="submit"></input>
+                        <input  class="date" type="date" name="due-date" value="2022-04-05" min="2022-01-01" max="2040-01-01">
+                        <input class="submite" type="submit" value="submit">
                     </div>
                 </div>
                 <div class="form-info">
@@ -95,23 +101,72 @@
                             <option value="Single-Family">offer-refused</option>
                         </select>
                     </div>
-                    <input class="submite" type="submit" value="submit"></input>
+                    <input class="submite" type="submit" value="submit">
                 </div>
             </form>
         </div>
     </section>
-    <section class="section__2__title">
-        <h2 class="section__2__title"> Sales Assessment Bord</h2>
+    <section class="section__2">
+        <div class="section__2-container">
+            <h2 class="section__2__title"> Sales Assessment Bord</h2>
     <div class="section__card">
         <ul class="section__card__lsit">
         <li class="section__card__lsit__item">City</li>
         <li class="section__card__lsit__item">Building</li>
         <li class="section__card__lsit__item">Agent</li>
         <li class="section__card__lsit__item">Status</li>
-
         <li class="section__card__lsit__item"> Date</li>
      </ul>
-     </div>
+    </div>
+    </div>
+    <div class="todo_section">
+        <h2 class="todo_section-card">Clinte Follow-up To-do List</h2>
+        <p class="todo_body">Here at Crystal, we love to hear your next step in Clinte follow-up,please use the form to list
+            your to-dos </p>
+
+        <div class="todo-main">
+                <div class="todo-agent">
+                    <div class="type">
+                        <label for="Assignee">Agent Name</label>
+                    </div>
+                        <select id="Agent" name="Agent" required>
+                                <option value="Seattle">All</option>
+                                <option value="Ayanna">Ayanna</option>
+                                <option value="Simret">Simret</option>
+                                <option value="Duril">Duril</option>
+                                <option value="Lala">Lala</option>
+                        </select>
+                        <input class="submite" type="submit" value="submit">
+                </div>
+     <!-- Item List -->
+                <div class="list-container">
+                    <div class="form-card">
+                        <form action="">
+                            <div class="todo-input">
+                                <input class="input" id="input-field" type="text" placeholder="   please enter your to-dos here!" autocomplete="off" />
+                                <button class="input-submit" id="submitBtn" type="submit">Post</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+        </div>
+        <div class="todo-list-container">
+            <div>
+              <p class="todo-name">Agent Name</p>
+                    <ul class="todo-list">
+                        <li class="todo-list-item">simret</li>
+                        
+                    </ul>
+                    </div>
+
+                   <div>
+              <p class="todo-name">to-do List</p>
+                    <ul class="todo-list">
+                        <li class="todo-list-item"> Contact client and ready for a estate show</li>
+                       
+                    </ul>
+                    </div>   
+        </div>
     </div>
     </section>
     <footer class="footer">
