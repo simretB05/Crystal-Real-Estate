@@ -26,6 +26,5 @@ document.getElementById("submitBtn").addEventListener("click", (event) => {
 });
 // document.getElementById("submit-name").addEventListener("click", (event) => {
 // console.log(event);
-
     
 // });
