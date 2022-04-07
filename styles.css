@@ -1,14 +1,52 @@
 .hero-section{
-    height: 400px;
+    height: 554px;
     position: relative;
 }
-
-.home-img{
-    width:100%;
-    height:90%
-
+.container-card{
+    width: 74%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 .home{
+color: #2B2D42;
+font-weight: 900;
+font-size: 17px;
+margin: 0 auto;
+width: 132px;
+text-align: center;
+
+}
+.home-text{
+    
+    margin: 1rem auto;
+    
+}
+.home-text-2{
+margin: 0 auto;
+font-weight: 900;
+font-size: 17px;
+margin: 0 auto;
+background-color: #2B2D42;
+color:white;
+width: 132px;
+text-align: center;
+
+
+}
+.home-card{
+    width:90%;
+    height:81%;
+    margin:0 auto;
+}
+.home-img{
+    margin: 4rem auto;
+    width:100%;
+    height:81%;
+
+}
+
+/* .home{
     position: absolute;
     top: 261px;
     right: 374px;
@@ -16,4 +54,4 @@
     color: white;
     font-size: 30px;
     font-weight: 900;
-}
+} */
