@@ -1,5 +1,5 @@
 .hero-section{
-    height: 554px;
+    height: 100vh;
     position: relative;
 }
 .container-card{
@@ -31,8 +31,10 @@ background-color: #2B2D42;
 color:white;
 width: 132px;
 text-align: center;
-
-
+}
+.home-text-2 a{
+    color: white;
+    text-decoration: none;
 }
 .home-card{
     width:90%;
