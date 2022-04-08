@@ -32,6 +32,10 @@
     </header>
     <!-- hero-section -->
     <section class="hero-section">
+        <div class="listing">
+            <h1 class="listing-title">Our Listings</h1>
+
+        </div>
         <div class="container">
             <div class="card">
                 <img src="../images/town-house.jpg" alt="">
@@ -51,9 +55,68 @@
                 <p class="card-text" >Single Family</p>
             </div>
             </div>
-            
         </div>
-
+        <div class="visions">
+            <h2 class="visions-title">Let's Make Your Vision Reality!</h2>
+        </div>
+        <div class="form__container">
+            <form class="form">
+                <div class="form-info">
+                    <div class="type">
+                      <label for="Location">City</label>
+                    </div>
+                    <div class="selection">
+                          <select id="City" name="City" required>
+                            <option value="Seattle">All</option>
+                            <option value="Seattle">Seattle</option>
+                            <option value="Tampa">Tampa</option>
+                            <option value="San Francisco">San Francisco</option>
+                            <option value="New Orleans">New Orleans</option>
+                            <option value="Pittsburgh">Pittsburgh</option>
+                          </select>
+                    </div>
+                </div>
+                <div class="form-info">
+                    <div class="type">
+                      <label for="Estate-type">Building</label>
+                    </div>
+                    <div class="selection">
+                          <select id="Building" name="Building" required>
+                            <option value="Seattle">All</option>
+                            <option value="Condo">Condo</option>
+                            <option value="Duplex">Duplex</option>
+                            <option value="Apartment">Apratment</option>
+                            <option value="Single-Family">Single-Family</option>
+                           </select>
+                    </div>
+                </div>
+                <div class="form-info">
+                    <div class="type">
+                        <label for="Assignee">Bedrooms</label>
+                    </div>
+                    <div class="selection">
+                        <select id="Agent" name="Bedrooms" required>
+                          <option value="Seattle">All</option>
+                          <option value="Ayanna">Ayanna</option>
+                          <option value="Simret">Simret</option>
+                          <option value="Duril">Duril</option>
+                          <option value="Lala">Lala</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-info">
+                    <div class="type">
+                        <label for="Date">Bathrooms</label>
+                    </div>
+                    <div class="selection">
+                        <input  class="date" type="date" name="due-date" value="2022-04-05" min="2022-01-01" max="2040-01-01">
+                        <input class="submite" type="submit" value="submit">
+                    </div>
+                </div>
+                
+                <input class="submite" type="submit" value="submit">
+            </form>
+        </div>
 
     </section>
     
