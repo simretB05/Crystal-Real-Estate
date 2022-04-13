@@ -54,25 +54,25 @@ function getSelectedOption(sel) {
 console.log( opt.value);
 // console.log( opt.text);
 
-// document.getElementById("submit-name").addEventListener("click", (event) => {
-//   event.preventDefault();
-//   console.log(event);
-//   let itemTwo = document.createElement("li");
-//   let textInputTwo = opt.value;
-//   itemTwo.innerText = textInputTwo;
-//   // To insure the input field isn't empty
-//   if (textInputTwo === "") {
-//     return;
-//   } else {
-//     // To insert the text entered in the input field into the comments on the right
-//     document.getElementById("todo-list").appendChild(itemTwo);
+document.getElementById("submit-name").addEventListener("click", (event) => {
+  event.preventDefault();
+  console.log(event);
+  let itemTwo = document.createElement("li");
+  let textInputTwo = opt.value;
+  itemTwo.innerText = textInputTwo;
+  // To insure the input field isn't empty
+  if (textInputTwo === "") {
+    return;
+  } else {
+    // To insert the text entered in the input field into the comments on the right
+    document.getElementById("todo-list").appendChild(itemTwo);
 
-//     // To add the class "new-item" so the CSS Animation takes place
-//     item.classList.add("new-itemTwo");
+    // To add the class "new-item" so the CSS Animation takes place
+    item.classList.add("new-itemTwo");
 
-//     // To remove the class "new-item" once the CSS Animation is over
-//     // setTimeout(function () {
-//     //   item.classList.remove("new-item");
-//     // }, 2000);
-//   }
-// });
+    // To remove the class "new-item" once the CSS Animation is over
+    // setTimeout(function () {
+    //   item.classList.remove("new-item");
+    // }, 2000);
+  }
+});

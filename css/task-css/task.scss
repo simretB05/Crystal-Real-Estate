@@ -1,0 +1,216 @@
+// .hero-section{
+  
+// }
+// .hero{
+      
+// }
+// .hero__title{
+//     margin: 2rem;
+
+// }
+// .form__container{
+//     justify-content: center;
+//     margin: 0 auto;
+//     width: 70%;
+// }
+// .form{
+//     height: 350px;
+//     width: 100%;
+//     margin: 50px auto;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: flex-end;
+//     justify-content: center;
+//     background-color: #54586F;
+//     border-radius: 10px;
+// }
+// .form-main-container{
+//     display: flex;
+//     width: 100%;
+//     align-items: center;
+//     justify-content: center;
+
+// }
+// .form-info{
+//     height: 150px;
+//     width: 220px;
+//     display: flex;
+//     flex-direction: column;
+//     border: 2px solid rgba(240, 231, 231, 0.8);
+//     box-shadow: 0px 4px 4px rgba(241, 238, 238, 0.2);
+//     border-radius: 5px;
+//     background-color:white;
+    
+// }
+// .type{
+//     text-align: center;
+//     padding: 1rem;
+// }
+// .selection{
+//     width: 100%;
+//     padding: 1rem;
+    
+// }
+// select{
+//     width: 100%;
+//     border-radius: 7px;
+//     background-color:#F5ECEB;
+// }
+// .submite{
+//     width: 60px;
+//     margin: 1rem;
+//     background-color:white;
+//     border-radius: 15px;
+//     border: 2px solid rgba(94, 93, 93, 0.8);
+//     box-shadow: 0px 4px 4px rgba(190, 187, 187, 0.2);
+// }
+// .submite:hover{
+//     background-color: #84889A;
+//     color: white;
+// }
+// .date{
+//     width: 100%;
+//     background-color: #F5ECEB;
+// }
+// .section__2{
+//     height: 700px;
+//     display: flex;
+//     width: 100%;
+// }
+// .section__2-container{
+//     width:50%;
+// }
+// .section__2__title{
+//     margin: 1rem;
+    
+
+// }
+// .section__card{
+//     margin: 1rem;
+//     width: 80%;
+//     display: flex;
+//     align-items: flex-start;
+//     justify-content: flex-start;
+//     background-color:#54586F;
+//     border-radius: 25px;
+//     border: 2px solid rgba(94, 93, 93, 0.8);
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+// }
+// .section__card__lsit{
+//     width:100%;
+//     display: flex;
+//     justify-content: space-between;
+//     color: white;
+//     list-style: none;
+// }
+// .section__card__lsit__item{
+//     width: 40px;
+//     margin: 1rem;
+//     padding-bottom: 10px;
+
+// }
+// .todo_section{
+//     padding: 1rem;
+//     width: 50%;
+//     height: 500px;
+
+// }
+// .todo_body{
+//     padding: 1rem;
+//     margin: 1rem;
+//     color: white;
+//     background-color: #54586F;
+//     border-radius: 15px;
+//     border: 2px solid rgba(94, 93, 93, 0.8);
+//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+// }
+// .todo-main{
+//      display: flex;
+     
+//      justify-content: flex-start;
+//          /* border: 2px solid rgba(94, 93, 93, 0.8); */
+// }
+// .todo-agent{
+//     width: 220px;
+//     display: flex;
+//     flex-direction: column;
+//     margin: 1rem;
+// }
+// .list-container{
+//     width: 100%;
+//     margin-top:4.1rem;
+
+// }
+// .todo-input{
+// width: 50%;
+// }
+// .input{
+//  width: 100%;
+//  border-radius: 6px;
+//  border: 1px solid rgb(30, 29, 29);
+//     box-shadow: 0px 4px 4px rgba(247, 245, 245, 0.2);
+//     padding: 2px;
+// }
+// .input-submit{
+//     margin-top:18px;
+//     padding:0 15px;
+//     background-color:#FFFFFF;
+//     border-radius: 15px;
+//     border: 2px solid rgba(94, 93, 93, 0.8);
+//     box-shadow: 0px 4px 4px rgba(190, 187, 187, 0.2);
+// }
+// .input-submit:hover{
+//  background-color: #84889A;
+//  color: white;
+
+// }
+// .todo-list-container{
+//     height: 300px;
+//     margin: 1rem;
+//     border: 2px solid rgba(94, 93, 93, 0.8);
+//     display: flex;
+//     justify-content: space-around;
+//     background-color: #F5ECEB;
+
+// }
+// .todo-name{
+//     margin: 1rem;
+//     font-size: 16px;
+//     font-weight: 900;
+
+// }
+// .todo-list{
+//     list-style: none;
+//     border-radius: 15px;
+//     text-align: center;
+// }
+// @keyframes example {
+//   from {background-color: yellow;}
+//   to {background-color: rgb(163, 167, 170);}
+// }
+    
+// .new-item {
+// margin: 1rem;
+// border: 2px solid rgba(94, 93, 93, 0.8);
+// box-shadow: 0px 4px 4px rgba(190, 187, 187, 0.2);
+// background-color: #54586F;
+// border-radius: 25px;
+// color: white;
+// animation-name: example;
+// animation-duration: 2s;
+// }
+// .todo-list-item{
+//     padding: 1rem;
+// }
+// .new-item-two{
+//      margin: 1rem;
+// border: 2px solid rgba(94, 93, 93, 0.8);
+// box-shadow: 0px 4px 4px rgba(190, 187, 187, 0.2);
+// background-color: #54586F;
+// border-radius: 25px;
+// color: white;
+// animation-name: example;
+// animation-duration: 2s;
+     
+//  }
+ 

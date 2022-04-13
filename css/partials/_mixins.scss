@@ -1,0 +1,44 @@
+/***********************
+* MEDIA QUERIES
+************************/
+@use "./typography" as*;
+@use "./variable" as*;
+
+
+@mixin tablet-query{
+	@media screen  and (min-width:$d-tablet){
+		@content;
+	}
+}
+
+@mixin laptop-query{
+	@media screen  and (min-width:$d-laptop){
+		@content;
+	}
+}
+
+@mixin laptop-l-query{
+	@media screen  and (min-width:$d-laptop-l){
+		@content;
+	}
+}
+// setting logo  styles and navbar mixins.
+
+@mixin logo-styling-mobile {
+   max-height: 73px;
+    max-width: 144px;
+    @content;
+}
+ @mixin logo-styling-laptop {
+
+	max-height: 90px;
+    max-width: 199px;
+    @content;
+ }
+ @mixin humberger-color {
+	filter: invert(100%) sepia(125%) saturate(88%) hue-rotate(18deg)
+      brightness(228%) contrast(100%);
+    @content;
+ }
+
+
