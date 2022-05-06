@@ -10,23 +10,45 @@
 
 
 .hero-section{
-      background-color: #F5ECEB;
+      background-color:$c-white;
+      padding-bottom: 4rem;
 
 }
 .hero{
       
 }
-.hero__title{
-    margin: 2rem;
+.listing{
 
+&-title{
+    color :$c-blue-black;
+    text-align: center;
+    padding: 4rem;
+}
 }
 .container{
     display: flex;
+    background-color: $c-white;
+    justify-content: center;
+
 }
 .card  img{
     width:300px;
     height: 300px;
+    padding: 1rem;
+    background-color: $c-white;
+    border-radius: 35px;
 }
+.card-des{
+
+}
+.card-text{
+color:$c-blue-black;
+text-align: center;
+}
+.visions-title{
+    color:white;
+}
+
 .form__container{
     justify-content: center;
     margin: 0 auto;
@@ -39,7 +61,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(43,	45,66,.4);
+    background-color: rgba(187, 188, 205, 0.4);
     border-radius: 10px;
     
 }
@@ -90,8 +112,10 @@ select{
     text-transform: uppercase;
 
 }
+
 .submite:hover{
     background-color: $c-white;
     color: rgb(43, 45, 66);
     margin: 1rem;
+
 }
