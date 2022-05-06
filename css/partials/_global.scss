@@ -16,9 +16,7 @@
 body {
         margin: 0;
 }
-
 //navigaton-items-styling
-
 .navbar{
   background-color: $c-blue-black;
   padding: $p-base;
@@ -66,7 +64,7 @@ body {
   top: 100%;
   right: 0%;
   background-color: $c-blue-black;
-  width: 45%;
+  width: 50%;
   height:100vh;
   animation: slidein 1s 1 ;
         @keyframes slidein {

@@ -8,6 +8,60 @@
 
 @import "../partials/global";
 
+//hero-section
+
+ .hero{
+  width: 50%;
+  padding: 1rem;
+  position: relative;
+  margin: 0 auto;
+  z-index: -1;
+
+ &__navigation{
+    display: flex;
+    justify-content: space-between;
+}
+&__prev-btn{
+  position: absolute;
+    font-size: 25px;
+    top: 42%;
+    left: 10px;
+    font-weight: 700;
+}
+&__next-btn{
+    right: 10px;
+    position: absolute;
+    font-size: 25px;
+    top: 42%;
+}
+
+.hero__prev-btn,
+.hero__next-btn {
+    background: $c-white;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+ }
+ .slider {
+    display: flex;
+    max-width: 100%;
+    overflow: hidden;
+ 
+ &__list{
+
+ }
+ &__list-img{
+    
+ }
+ }
+
 
 
 

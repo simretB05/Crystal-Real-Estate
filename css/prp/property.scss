@@ -1,0 +1,97 @@
+@use "../partials/variable" as *;
+@use "../partials/color" as *;
+@use "../partials/typography" as *;
+@use "../partials/mixins" as *;
+
+
+// Importing the Nav bar and Footer styles
+
+@import "../partials/global";
+
+
+.hero-section{
+      background-color: #F5ECEB;
+
+}
+.hero{
+      
+}
+.hero__title{
+    margin: 2rem;
+
+}
+.container{
+    display: flex;
+}
+.card  img{
+    width:300px;
+    height: 300px;
+}
+.form__container{
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+}
+.form{
+    height: 162px;
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(43,	45,66,.4);
+    border-radius: 10px;
+    
+}
+.form-main-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+}
+.form-info{
+   height: 70px;
+    margin: 1rem;
+    padding: 1rem;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(240, 231, 231, 0.8);
+    box-shadow: 0px 4px 4px rgb(241 238 238 / 20%);
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.type{
+    text-align: center;
+    
+}
+.selection{
+    width: 100%;
+    
+}
+select{
+    width: 100%;
+    border-radius: 7px;
+    background-color:#F5ECEB;
+}
+.submite{
+    width: 90px;
+    margin: 1rem;
+    background-color:rgb(43, 45, 66);
+    color: white;
+    padding: .51rem;
+    border-radius: 10px;
+    border: 2px solid rgba(94, 93, 93, 0);
+    box-shadow: 0px 4px 4px rgba(43, 45, 66, 0.2);
+    text-transform: uppercase;
+
+}
+.submite:hover{
+    background-color: $c-white;
+    color: rgb(43, 45, 66);
+    margin: 1rem;
+}

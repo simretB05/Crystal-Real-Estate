@@ -1,0 +1,15 @@
+@use "../partials/variable" as *;
+@use "../partials/color" as *;
+@use "../partials/typography" as *;
+@use "../partials/mixins" as *;
+
+
+// Importing the Nav bar and Footer styles
+
+@import "../partials/global";
+
+.section{
+    width: 100%;
+    background-color: #75705D;
+    height: 100vh;
+}
